@@ -1,0 +1,93 @@
+div {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  height: max-content;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(107, 81, 82);
+  font-size: 26px;
+}
+
+.page {
+  min-width: 90vw;
+  min-height: 70vh;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.container-basic {
+  max-width: 100%;
+  min-height: 76vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  /* To make the bricks' absolute positioning relative to this container */
+  margin: auto;
+}
+
+.button-basic {
+  padding: 6px;
+  font-family: 'Courier New', Courier, monospace;
+  background: transparent;
+  color: rgb(107, 81, 82);
+  border: none;
+  border-bottom: 1px solid rgb(107, 81, 82);
+  font-size: 1rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button-basic:hover {
+  font-weight: bolder;
+}
+
+
+footer p {
+  margin: 0;
+  /* Remove default margin */
+  padding: 0.5rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 8px;
+  color: rgb(107, 81, 82);
+
+  /*background: linear-gradient(to bottom, transparent 10%, rgb(210, 219, 208) 90%); /* Fades out to transparent */
+
+}
+
+.brick {
+  position: absolute;
+  top: 0;
+  border-radius: 2px;
+  animation: fall 1s ease-in forwards;
+  left: 50%;
+  /* Default to center */
+  transform: translateX(-50%);
+  /* Center the brick horizontally */
+}
+
+.brick::before {
+  font-size: 2.5rem;
+  content: '\1F9F1';
+  /* Directly using the emoji is simpler */
+}
+
+@keyframes fall {
+  to {
+    top: calc(100% - 3rem);
+    /* Stop at the bottom of the container, accounting for the brick's height */
+
+  }
+}
+
+@media (max-width: 768px) {
+  .container-basic {
+    max-width: 100%;
+    min-height: 84vh;
+  }
+}
