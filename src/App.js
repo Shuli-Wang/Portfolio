@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from "./Component/Header";
 import TBD from './Component/TBD';
@@ -11,9 +11,9 @@ import Wedding from './Photographer/Wedding';
 
 function App() {
   return (
-    <BrowserRouter basename="/Portfolio">
+    <Router basename="/Portfolio">
       <Content />
-    </BrowserRouter>
+    </Router>
   );
 }
 
