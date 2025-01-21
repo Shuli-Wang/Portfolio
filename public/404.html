@@ -1,7 +1,11 @@
-<script>
-    // Redirect all requests to index.html
-    var redirectTo = window.location.pathname.replace('/Portfolio', '');
-    if (!redirectTo.startsWith('/')) redirectTo = '/' + redirectTo;
-    window.location.href = '/Portfolio' + redirectTo;
-  </script>
-  
+<html>
+  <head>
+    <script>
+      // Redirect all navigation to index.html
+      var redirectTo = window.location.pathname.replace('/Portfolio', '');
+      if (!redirectTo.startsWith('/')) redirectTo = '/' + redirectTo;
+      window.location.href = '/Portfolio' + redirectTo;
+    </script>
+  </head>
+  <body></body>
+</html>
