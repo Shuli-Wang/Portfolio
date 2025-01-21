@@ -67,7 +67,6 @@ function About() {
                 {/* Second container */}
                 <div className="container-image">
                     <img
-                        src={`${process.env.PUBLIC_URL}/images/portrait-D.jpg`}
                         alt="Portrait-Developer"
                         className="image-portrait"
                         loading="lazy"
