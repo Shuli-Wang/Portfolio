@@ -70,6 +70,7 @@ function About() {
                         src="/images/portrait-D.jpg"
                         alt="Developer"
                         className="image-portrait"
+                        loading="lazy"
                     />
                 </div>
             </div>
