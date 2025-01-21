@@ -106,7 +106,6 @@
     object-fit: cover;
     display: block;
     /* Prevent inline spacing around the image */
-    content: url('/public/images/Portrait-D.jpg');
 }
 
 .button-explore {
