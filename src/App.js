@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Router, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Header from "./Component/Header";
 import TBD from './Component/TBD';
@@ -11,9 +11,9 @@ import Wedding from './Photographer/Wedding';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/Portfolio">
       <Content />
-    </Router>
+    </BrowserRouter>
   );
 }
 
@@ -42,16 +42,15 @@ function Content() {
 
 
       {/* Dynamic Page Content */}
-      <BrowserRouter basename="/Portfolio">
-        <Routes>
-          <Route path="/TBD" element={<TBD />} />
-          <Route path="/" element={<Main />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/AIfunction/Painting" element={<Painting />} />
-          <Route path="/Photographer" element={<Pmain />} />
-          <Route path="/Photographer/Wedding" element={<Wedding />} />
-        </Routes>
-      </BrowserRouter>
+
+      <Routes>
+        <Route path="/TBD" element={<TBD />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/AIfunction/Painting" element={<Painting />} />
+        <Route path="/Photographer" element={<Pmain />} />
+        <Route path="/Photographer/Wedding" element={<Wedding />} />
+      </Routes>
       {/* Shared Footer */}
       <footer>
         <p>© 2025 Shuli Wang</p>
