@@ -67,8 +67,8 @@ function About() {
                 {/* Second container */}
                 <div className="container-image">
                     <img
-                        src="/images/portrait-D.jpg"
-                        alt="Developer"
+                        src="images/portrait-D.jpg"
+                        alt="Portrait-Developer"
                         className="image-portrait"
                         loading="lazy"
                     />
