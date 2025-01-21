@@ -12,7 +12,7 @@ import Wedding from './Photographer/Wedding';
 
 function App() {
   return (
-    <Router basename="/Portfolio">
+    <Router>
       <Content />
     </Router>
   );
