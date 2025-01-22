@@ -34,6 +34,9 @@ function About() {
                             I'm a developer, and a photographer.
                         </p>
                         <p>
+                            I'm currently looking to grow as a junior developer and collaborate with talented professionals. If your team is hiring, feel free to check out my <a href="https://drive.google.com/file/d/1C0UC4HVuYryGTWOCkOasV2cG9s9aJZQN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a> — I might be a good match! To share my journey and connect with like-minded individuals, I created this personal website.Here, you'll find my growing technical projects alongside my photography portfolio.                            
+                        </p>
+                        <p>
                             My path to software development began in 2018 when I started my undergraduate studies in IoT Engineering. Later, I moved to Ottawa for further education and earned a Master’s degree in Electrical and Computer Engineering last year. Along the way, I built a strong foundation in programming, problem-solving, and creating practical solutions through various academic and personal projects.
                         </p>
                         <p>
@@ -41,9 +44,6 @@ function About() {
                         </p>
                         <p>
                             Beyond coding, I am also a passionate photographer. Photography has shaped my approach to problem-solving by teaching me creativity, attention to detail, and the importance of connecting with people. These qualities enhance my technical proficiency and allow me to handle challenges with precision and innovative thinking.
-                        </p>
-                        <p>
-                            Currently, I am looking to grow as a junior developer and collaborate with a professional team. To share my journey and build new connections, I created this personal website where you can explore both my photography portfolio and my technical expertise.
                         </p>
                         <p>
                             If my story resonates with you, I’d love to have a conversation — whether it’s over coffee, discussing ideas, or exploring opportunities to collaborate.

@@ -167,13 +167,16 @@
         align-items: center;
         border-top: 1px solid rgb(255, 255, 255);
         opacity: 0;
-        /* Initially hidden */
-        transition: opacity 0.5s ease;
-        /* Smooth transition */
+        pointer-events: none; /* Prevent clicks */
+        transform: scaleY(0); /* Collapse the menu */
+        transform-origin: top;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
 
     .nav.open {
         opacity: 1;
+        pointer-events: auto; /* Enable clicks */
+        transform: scaleY(1); /* Expand the menu */
     }
 
     .nav-links {
