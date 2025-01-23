@@ -3,16 +3,13 @@ import "./Main.css";
 
 function MainPage() {
 
-
-  //<h1>I build websites, take photos, and still can’t figure out where the USB goes on the first try.</h1>
-
   return (
     <div className="Main">
 
       <div className="container-basic">
         <h1>Bugs are crafty, lens caps are slippery — good thing I’m a professional at both hide-and-seek and keeping track.</h1>
         <div className="container-main">
-          <h1 style={{ marginTop: '0', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Quick Facts</h1>
+          <h1 style={{fontWeight: 'normal', marginTop: '0', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Quick Facts</h1>
           <p>1. I’m actively seeking a full-time Junior Software Developer role anywhere in Ontario, Canada.</p>
           <p>2. I experienced in full-stack development, database management and version control — skills I’ve applied to projects that solve real problems (and occasinally something just for fun).</p>
           <p>3. I may not tick every box for the role, but I’m a quick learner, a careful listener, detail-oriented, and focused on executing not excuses.</p>
