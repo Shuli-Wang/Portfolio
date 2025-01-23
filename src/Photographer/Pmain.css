@@ -1,6 +1,6 @@
 .Pmain h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 4%;
     padding-right: 4%;
     color: rgb(107, 81, 82);
@@ -167,11 +167,11 @@
     }
 
     .Pmain h1 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .Pmain p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .Pmain .button-type {
