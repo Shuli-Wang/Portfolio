@@ -9,7 +9,7 @@
 
 .Pmain p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.5vw;
+    font-size: 16px;
     padding-left: 4%;
     padding-right: 4%;
     
@@ -168,6 +168,10 @@
 
     .Pmain h1 {
         font-size: 16px;
+    }
+
+    .Pmain p {
+        font-size: 12px;
     }
 
     .Pmain .button-type {
