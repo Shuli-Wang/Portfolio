@@ -9,6 +9,8 @@ import About from './Component/About';
 import Painting from './AIfunction/Painting';
 import Pmain from './Photographer/Pmain';
 import Wedding from './Photographer/Wedding';
+import Family from './Photographer/Family';
+import Personal from './Photographer/Personal';
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function Content() {
         <Route path="/AIfunction/Painting" element={<Painting />} />
         <Route path="/Photographer" element={<Pmain />} />
         <Route path="/Photographer/Wedding" element={<Wedding />} />
+        <Route path="/Photographer/Family" element={<Family />} />
+        <Route path="/Photographer/Personal" element={<Personal />} />
       </Routes>
       {/* Shared Footer */}
       <footer>

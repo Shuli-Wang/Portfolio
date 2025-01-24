@@ -12,8 +12,8 @@
     font-size: 16px;
     padding-left: 4%;
     padding-right: 4%;
-    
-    margin-top:0;
+
+    margin-top: 0;
     color: rgb(107, 81, 82);
     text-align: left;
 }
@@ -55,7 +55,7 @@
     border: none;
     cursor: pointer;
     padding: 10px;
-    z-index:1000;
+    z-index: 999;
 }
 
 .prev-btn {
@@ -114,8 +114,10 @@
     flex-direction: column;
     justify-content: left;
     align-items: stretch;
-    word-wrap: break-word; /* Break long words to avoid overflow */
-    overflow-wrap: break-word; /* Same as word-wrap, but for modern browsers */
+    word-wrap: break-word;
+    /* Break long words to avoid overflow */
+    overflow-wrap: break-word;
+    /* Same as word-wrap, but for modern browsers */
     white-space: normal;
     flex-shrink: 1;
     width: 50%;
@@ -153,14 +155,15 @@
         height: fit-content;
 
     }
+
     .Pmain .container-type-child {
         width: 100%;
     }
 
     .Pmain .container-category-child-left,
-.Pmain .container-category-child-right {
-    height: fit-content
-}
+    .Pmain .container-category-child-right {
+        height: fit-content
+    }
 
     .Pmain .container-category-child-right {
         flex: initial;

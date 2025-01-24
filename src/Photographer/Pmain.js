@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
 import { useSwipeable } from "react-swipeable";
 import "./Pmain.css";
 
@@ -16,10 +16,10 @@ function Pmain() {
     `${process.env.PUBLIC_URL}/images/photographer/Main-H4.jpg`,
   ];
   const narrowImages = [
-    `${process.env.PUBLIC_URL}/images/photographer/Wedding-V5.jpg`,
+    `${process.env.PUBLIC_URL}/images/photographer/Wedding-V7.jpg`,
     `${process.env.PUBLIC_URL}/images/photographer/Personal-V1.jpg`,
     `${process.env.PUBLIC_URL}/images/photographer/Family-V4.jpg`,
-    `${process.env.PUBLIC_URL}/images/photographer/Personal-V6.jpg`,
+    `${process.env.PUBLIC_URL}/images/photographer/Personal-V5.jpg`,
   ];
   const images = isWideScreen ? wideImages : narrowImages;
 
@@ -40,6 +40,12 @@ function Pmain() {
     const interval = setInterval(handleNext, 5000);
     return () => clearInterval(interval);
   }, [images]);
+
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    navigate(path); // Navigate to the passed path
+  };
 
   return (
     <div className='Pmain'>
@@ -65,40 +71,45 @@ function Pmain() {
           </button>
         </div>
         <div className='container-basic' style={{ minHeight: '40vh' }}>
-          <h1>Life often pulls us into its daily rhythm—rush hour, housework, and the grind of work. Yet, now and then, a moment lifts us out of the ordinary, reminding us why it all matters.</h1>
+          <h1 style={{ fontWeight: 'normal' }}>Life often pulls us into its daily rhythm—rush hour, housework, and the grind of work. Yet, now and then, a moment lifts us out of the ordinary, reminding us why it all matters.</h1>
           <h1>Life is measured not by years or days but by the moments that take our breath away.</h1>
+          <h1 style={{ fontWeight: 'normal', marginBottom: '30px', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Let's explore...</h1>
         </div>
         <div className='container-category'>
           <div className='container-category-child-left'>
             <div className='container-type'>
               <button className="button-type"
-                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Wedding-V8.jpg)` }}>
+                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Wedding-V8.jpg)` }}
+                onClick={() => handleNavigation("/Photographer/Wedding")}>
               </button>
               <div className='container-type-child'>
-              <h1>Wedding</h1>
-              <p>One of life’s most cherished milestones is the celebration of two people starting a new chapter together. It's not just about saying “I do”, but about the shared journey of planning, the anticipation of something, and that quiet, shared smile that evening. It’s found in the bouquet in your hands, the breeze carrying the laughter of loved ones, and the memories preserved in every heartfelt photograph. These moments, both big and small, are a beautiful reflection of the love and connection between two people ready to take on the world together.</p>
-              <p>Love doesn’t follow rules or logic—it simply is. Whether rich or poor, brilliant or quirky, love brings people together in ways that are hard to explain. It blinds us to the small stuff and opens our eyes to what truly matters. </p>
+                <h1>Wedding</h1>
+                <p>Anyone can make you smile, but it takes someone special to make you smile through tears. A wedding is more than saying "I do"; it's the start of a lifelong journey shaped by shared dreams, the thrill of building a life together, and the quiet smiles exchanged as you stand side by side.</p>
+                <p>Love is a universal language, transcending barriers and speaks directly to the heart. Love is evident in every gesture, every glance, and every breath. It’s in the way the couple looks at each other in the quiet moments before the vows. It's how their hands intertwine as they take the next step. It’s in the bouquet held in hands, the laughter carried by the breeze, and the memories captured in photos.</p>
+                <p>Love never fails.</p>
               </div>
             </div>
           </div>
 
           <div className='container-category-child-right'>
-          <div className='container-type' style={{height:'50%'}}>
+            <div className='container-type' style={{ height: '50%' }}>
               <button className="button-type"
-                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Family-V1.jpg)` }}>
+                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Family-V1.jpg)` }}
+                onClick={() => handleNavigation("/Photographer/Family")}>
               </button>
               <div className='container-type-child'>
-              <h1>Family</h1>
-              <p>Family is everything — support, laughter, and love. The love between parents and children, the connections between siblings, and the comfort of being surrounded by those who care deeply for you are the things that make a family unique.</p>
+                <h1>Family</h1>
+                <p>Family is  everything — shared memories, unwavering support, and unconditional love. Whether united by blood or not, through moments of joy or times of hardship, family is where you find peace, comfort, and belonging.</p>
               </div>
             </div>
-            <div className='container-type'style={{height:'50%'}}>
+            <div className='container-type' style={{ height: '50%' }}>
               <button className="button-type"
-                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Personal-V3.jpg)` }}>
+                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Personal-V8.jpg)` }}
+                onClick={() => handleNavigation("/Photographer/Personal")}>
               </button>
               <div className='container-type-child'>
-              <h1>Personal</h1>
-              <p>Whether it’s a birthday, graduation, or simply a desire to capture a new chapter of your life, you can alway explore and express different sides of yourself. It’s about embracing where you are, who you’ve become, and the possibilities that lie ahead.</p>
+                <h1>Personal</h1>
+                <p>Whether it's a birthday, graduation, or simply something special, this moment is just for you. Here we celebrate who you are, honor the journey you've traveled, and embrace the aspirations that drive you. It's about YOU.</p>
               </div>
             </div>
           </div>
