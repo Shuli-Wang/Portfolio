@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSwipeable } from "react-swipeable";
 import "./Pmain.css";
 
@@ -73,7 +73,8 @@ function Pmain() {
         <div className='container-intro'>
           <h2 style={{ fontWeight: 'normal' }}>Life often pulls us into its daily rhythm — rush hour, housework, and the grind of work. Yet, every now and then, there will be a moment lifting us out of the ordinary, reminding us why it all matters.</h2>
           <h2 style={{fontWeight: 'normal'}}>Life is measured not by years or days, but by the moments that take our breath away.</h2>
-          <h1 style={{ width: '88%', marginBottom: '30px', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Through My Lens</h1>
+          <h1 style={{ width: '88%', marginBottom: '30px', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>
+            Through My Lens</h1>
         </div>
         <div className='container-category'>
           <div className='container-category-child-left'>
@@ -81,7 +82,7 @@ function Pmain() {
               <button className="button-type"
                 style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Wedding-V8.jpg)` }}
                 onClick={() => handleNavigation("/Photographer/Wedding")}>
-              </button>
+              View Gallery →</button>
               <div className='container-type-child'>
                 <h1>Wedding</h1>
                 <p>Anyone can make you smile, but it takes someone special to make you smile through tears. A wedding is more than saying "I do"; it's the start of a lifelong journey, the thrill of achieving shared dreams, and the quiet smiles exchanged as you stand side by side.</p>
@@ -96,7 +97,7 @@ function Pmain() {
               <button className="button-type"
                 style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Family-V1.jpg)` }}
                 onClick={() => handleNavigation("/Photographer/Family")}>
-              </button>
+              View Gallery →</button>
               <div className='container-type-child'>
                 <h1>Family</h1>
                 <p>Family is  everything — shared memories, unwavering support, and unconditional love. </p>
@@ -107,7 +108,7 @@ function Pmain() {
               <button className="button-type"
                 style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Personal-V8.jpg)` }}
                 onClick={() => handleNavigation("/Photographer/Personal")}>
-              </button>
+              View Gallery →</button>
               <div className='container-type-child'>
                 <h1>Personal</h1>
                 <p>Whether it's a birthday, graduation, or simply something special, this moment is just for you. </p>
