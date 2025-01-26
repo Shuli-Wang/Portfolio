@@ -4,14 +4,14 @@
 }
 
 .About h1 {
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 6%;
     color: rgb(107, 81, 82);
     text-align: left;
 }
 
 .About h2 {
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(107, 81, 82);
     text-align: left;
     padding-left: 6%;
@@ -21,7 +21,7 @@
     color: rgb(107, 81, 82);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     margin-top: 0;
     font-weight: 100;
@@ -164,7 +164,7 @@
     }
 
     .About p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .image-portrait {

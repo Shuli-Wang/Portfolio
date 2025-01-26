@@ -8,7 +8,7 @@
 .Testimonials h1 {
   color: rgb(107, 81, 82);
   margin: 10px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .Testimonials h2 {
@@ -23,43 +23,42 @@
   color: rgb(107, 81, 82);
   margin: 20px;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .container-testimonials,
 .container-testimonials-right {
   width: 80%;
   height: auto;
-  padding: 2%;
-  margin: 0;
+  padding: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: left;
 }
 
 .container-testimonials-right {
-  margin-left: 18%;
+  margin-left: 20%;
 }
 
 @media (max-width: 768px) {
 
   .Testimonials h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .Testimonials h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .Testimonials p {
-    font-size: 12px;
+    font-size: 18px;
   }
 
 
   .container-testimonials,
   .container-testimonials-right {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 100%;
-  }
-
-  .container-testimonials-right {
-    margin-left: 0;
   }
 
 }

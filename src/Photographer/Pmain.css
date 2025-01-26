@@ -1,6 +1,6 @@
 .Pmain h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
+    font-size: 26px;
     padding-left: 4%;
     padding-right: 4%;
     color: rgb(107, 81, 82);
@@ -9,7 +9,7 @@
 
 .Pmain h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 4%;
     padding-right: 4%;
     color: rgb(107, 81, 82);
@@ -18,7 +18,7 @@
 
 .Pmain p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    font-size: 20px;
     padding-left: 4%;
     padding-right: 4%;
     margin-top: 0;
@@ -189,14 +189,14 @@
     }
 
     .Pmain h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .Pmain h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .Pmain p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .Pmain .button-type {
