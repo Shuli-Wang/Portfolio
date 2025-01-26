@@ -1,0 +1,65 @@
+.Testimonials {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  height: fit-content;
+  min-height: 76vh;
+}
+
+.Testimonials h1 {
+  color: rgb(107, 81, 82);
+  margin: 10px;
+  font-size: 24px;
+}
+
+.Testimonials h2 {
+  color: rgb(107, 81, 82);
+  margin: 10px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.Testimonials p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(107, 81, 82);
+  margin: 20px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.container-testimonials,
+.container-testimonials-right {
+  width: 80%;
+  height: auto;
+  padding: 2%;
+  margin: 0;
+  text-align: left;
+}
+
+.container-testimonials-right {
+  margin-left: 18%;
+}
+
+@media (max-width: 768px) {
+
+  .Testimonials h1 {
+    font-size: 18px;
+  }
+  .Testimonials h2 {
+    font-size: 14px;
+  }
+
+  .Testimonials p {
+    font-size: 12px;
+  }
+
+
+  .container-testimonials,
+  .container-testimonials-right {
+    width: 100%;
+  }
+
+  .container-testimonials-right {
+    margin-left: 0;
+  }
+
+}

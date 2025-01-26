@@ -27,11 +27,11 @@ const Header = () => {
           <ul className="nav-links">
             <div className="left-links">
               <li><Link to="/Photographer" onClick={handleClick}>Photography</Link></li>
-              <li><Link to="/AIfunction/Painting" onClick={handleClick}>Projects</Link></li>
+              <li><Link to="/Developer" onClick={handleClick}>Projects</Link></li>
             </div>
             <div className="right-links">
               <li><Link to="/About" onClick={handleClick}>About</Link></li>
-              <li><Link to="/TBD" onClick={handleClick}>Testimonials</Link></li>
+              <li><Link to="/Testimonials" onClick={handleClick}>Testimonials</Link></li>
             </div>
           </ul>
         </nav>

@@ -70,10 +70,10 @@ function Pmain() {
             &#10095;
           </button>
         </div>
-        <div className='container-basic' style={{ minHeight: '40vh' }}>
-          <h1 style={{ fontWeight: 'normal' }}>Life often pulls us into its daily rhythm—rush hour, housework, and the grind of work. Yet, now and then, a moment lifts us out of the ordinary, reminding us why it all matters.</h1>
-          <h1>Life is measured not by years or days but by the moments that take our breath away.</h1>
-          <h1 style={{ fontWeight: 'normal', marginBottom: '30px', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Let's explore...</h1>
+        <div className='container-intro'>
+          <h2 style={{ fontWeight: 'normal' }}>Life often pulls us into its daily rhythm — rush hour, housework, and the grind of work. Yet, every now and then, there will be a moment lifting us out of the ordinary, reminding us why it all matters.</h2>
+          <h2 style={{fontWeight: 'normal'}}>Life is measured not by years or days, but by the moments that take our breath away.</h2>
+          <h1 style={{ width: '88%', marginBottom: '30px', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Through My Lens</h1>
         </div>
         <div className='container-category'>
           <div className='container-category-child-left'>
@@ -84,9 +84,9 @@ function Pmain() {
               </button>
               <div className='container-type-child'>
                 <h1>Wedding</h1>
-                <p>Anyone can make you smile, but it takes someone special to make you smile through tears. A wedding is more than saying "I do"; it's the start of a lifelong journey shaped by shared dreams, the thrill of building a life together, and the quiet smiles exchanged as you stand side by side.</p>
+                <p>Anyone can make you smile, but it takes someone special to make you smile through tears. A wedding is more than saying "I do"; it's the start of a lifelong journey, the thrill of achieving shared dreams, and the quiet smiles exchanged as you stand side by side.</p>
                 <p>Love is a universal language, transcending barriers and speaks directly to the heart. Love is evident in every gesture, every glance, and every breath. It’s in the way the couple looks at each other in the quiet moments before the vows. It's how their hands intertwine as they take the next step. It’s in the bouquet held in hands, the laughter carried by the breeze, and the memories captured in photos.</p>
-                <p>Love never fails.</p>
+                <p>Love makes us whole.</p>
               </div>
             </div>
           </div>
@@ -99,7 +99,8 @@ function Pmain() {
               </button>
               <div className='container-type-child'>
                 <h1>Family</h1>
-                <p>Family is  everything — shared memories, unwavering support, and unconditional love. Whether united by blood or not, through moments of joy or times of hardship, family is where you find peace, comfort, and belonging.</p>
+                <p>Family is  everything — shared memories, unwavering support, and unconditional love. </p>
+                  <p>Whether united by blood or not, through moments of joy or times of hardship, family is where you find peace and belonging.</p>
               </div>
             </div>
             <div className='container-type' style={{ height: '50%' }}>
@@ -109,7 +110,8 @@ function Pmain() {
               </button>
               <div className='container-type-child'>
                 <h1>Personal</h1>
-                <p>Whether it's a birthday, graduation, or simply something special, this moment is just for you. Here we celebrate who you are, honor the journey you've traveled, and embrace the aspirations that drive you. It's about YOU.</p>
+                <p>Whether it's a birthday, graduation, or simply something special, this moment is just for you. </p>
+                <p>We celebrate who you are, honor the journey you've traveled, and embrace the aspirations that drive you. It's all about YOU.</p>
               </div>
             </div>
           </div>

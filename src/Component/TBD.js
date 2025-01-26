@@ -66,8 +66,8 @@ function TBD() {
   return (
     <div className='container-basic'>
       <h1 style={{ marginTop: '10%', padding: '6px' }}>Construction In&nbsp;Progress&nbsp;🏗️</h1>
-      <h1 style={{ fontSize: '1rem', padding: '6px' }}>
-        Made it this far? Drop a brick and keep the progress rolling!
+      <h1 style={{ fontWeight: 'normal', fontSize: '1rem', padding: '6px' }}>
+        Drop a brick and keep things rolling!
       </h1>
       <button
         className='button-basic'

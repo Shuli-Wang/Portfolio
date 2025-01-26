@@ -6,11 +6,12 @@ import Header from "./Component/Header";
 import TBD from './Component/TBD';
 import Main from './Component/Main';
 import About from './Component/About';
-import Painting from './AIfunction/Painting';
+import Dmain from './Developer/Dmain';
 import Pmain from './Photographer/Pmain';
 import Wedding from './Photographer/Wedding';
 import Family from './Photographer/Family';
 import Personal from './Photographer/Personal';
+import Testimonials from './Component/Testimonials';
 
 function App() {
   return (
@@ -47,10 +48,11 @@ function Content() {
       {/* Dynamic Page Content */}
 
       <Routes>
-        <Route path="/TBD" element={<TBD />} />
         <Route path="/" element={<Main />} />
         <Route path="/About" element={<About />} />
-        <Route path="/AIfunction/Painting" element={<Painting />} />
+        <Route path="/Testimonials" element={<Testimonials />} />
+        <Route path="/TBD" element={<TBD />} />
+        <Route path="/Developer" element={<Dmain />} />
         <Route path="/Photographer" element={<Pmain />} />
         <Route path="/Photographer/Wedding" element={<Wedding />} />
         <Route path="/Photographer/Family" element={<Family />} />

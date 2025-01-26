@@ -34,19 +34,21 @@ function About() {
                             I'm a developer, and a photographer.
                         </p>
                         <p>
-                            I'm currently looking to grow as a junior developer and collaborate with talented professionals. If your team is hiring, feel free to check out my <a href="https://drive.google.com/file/d/1C0UC4HVuYryGTWOCkOasV2cG9s9aJZQN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a> — I might be a good match! To share my journey and connect with like-minded individuals, I created this personal website.Here, you'll find my growing technical projects alongside my photography portfolio.
+                            I'm currently looking to grow as a software developer and collaborate with talented professionals. If your team is hiring, take a look on my <a href="https://drive.google.com/file/d/1C0UC4HVuYryGTWOCkOasV2cG9s9aJZQN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a> — We might be a good match! </p>
+                        <p>
+                            To share my journey and connect with like-minded individuals, I created this personal website. Here, you'll find my growing technical projects alongside my photography portfolio.
                         </p>
                         <p>
-                            My path to software development began in 2018 when I started my undergraduate studies in IoT Engineering. Later, I moved to Ottawa for further education and earned a Master’s degree in Electrical and Computer Engineering last year. Along the way, I built a strong foundation in programming, problem-solving, and creating practical solutions through various academic and personal projects.
+                            My path to software development began in 2018 when I started my undergraduate studies in Internet of Things Engineering. Later, I moved to Ottawa for further education and earned a Master’s degree in Electrical and Computer Engineering last year. Along the way, I built a strong foundation in programming, problem-solving, and creating practical solutions through various academic and personal projects.
                         </p>
                         <p>
-                            During the EHR e-hospital project, I gained valuable experience in adapting to a new workflow quickly and collaborating closely with teams. Besides, working in a fast-paced Canadian retail environment taught me to maintain focus and perform effectively under pressure.
+                            Beyond coding, I am also a passionate photographer. Photography has instilled in me a strong sense of creativity, attention to detail, and the importance of connecting with people. These qualities enhance my technical proficiency and allow me to handle challenges with precision and innovative thinking.
                         </p>
                         <p>
-                            Beyond coding, I am also a passionate photographer. Photography has shaped my approach to problem-solving by teaching me creativity, attention to detail, and the importance of connecting with people. These qualities enhance my technical proficiency and allow me to handle challenges with precision and innovative thinking.
+                            Additionally, I’ve been working in a fast-paced Canadian retail environment, which has sharpened my ability to collaborate effectively with coworkers and stay calm under pressure.
                         </p>
                         <p>
-                            If my story resonates with you, I’d love to have a conversation — whether it’s over coffee, discussing ideas, or exploring opportunities to collaborate.
+                            If my story resonates with you, I’d love to have a conversation — whether over coffee, sharing ideas, or exploring opportunities. I’d appreciate it if you <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-nAvoNumTTxkiQTKnbzBXvLsLNxqo0CSlfU5nEwwMk5B4bQ/viewform?usp=header">left me a comment</a> with any advice or thoughts you’d like to share!
                         </p>
                     </div>
                     <div className="container-explore">
