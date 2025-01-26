@@ -48,7 +48,7 @@ function About() {
                             Additionally, I’ve been working in a fast-paced Canadian retail environment, which has sharpened my ability to collaborate effectively with coworkers and stay calm under pressure.
                         </p>
                         <p>
-                            If my story resonates with you, I’d love to have a conversation — whether over coffee, sharing ideas, or exploring opportunities. I’d appreciate it if you <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-nAvoNumTTxkiQTKnbzBXvLsLNxqo0CSlfU5nEwwMk5B4bQ/viewform?usp=header">leave me a comment</a> with any advice or thoughts you’d like to share!
+                            If my story resonates with you, I’d love to have a conversation — whether over coffee, sharing ideas, or exploring opportunities. I’d appreciate it if you <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-nAvoNumTTxkiQTKnbzBXvLsLNxqo0CSlfU5nEwwMk5B4bQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">leave me a comment</a> with any advice or thoughts you’d like to share!
                         </p>
                     </div>
                     <div className="container-explore">
