@@ -10,7 +10,7 @@
   margin-right: 10%;
   margin-top: 10%;
   margin-bottom: 6%;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .Main p {
@@ -18,9 +18,10 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 100;
   color: rgb(107, 81, 82);
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   margin-top: 0;
+  margin-left: 6%;
 }
 
 .container-main {
@@ -39,6 +40,7 @@
 
   .Main p {
     font-size: 18px;
+    margin-left: 2%;
   }
 
 }
