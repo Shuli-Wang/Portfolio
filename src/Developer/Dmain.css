@@ -1,0 +1,132 @@
+.Dmain h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(107, 81, 82);
+    margin: 10px;
+    font-size: 26px;
+}
+
+.Dmain p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(107, 81, 82);
+    margin-bottom: 0;
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.Dmain h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(107, 81, 82);
+    margin-bottom: 0;
+    font-size: 20px;
+    margin: 0;
+    display: inline;
+    font-weight: bold;
+}
+
+.Dmain h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(107, 81, 82);
+    font-weight: lighter;
+    margin-bottom: 0;
+    font-size: 18px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-Dmain {
+    width: 80%;
+    height: auto;
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+.container-title {
+    display: flex;
+    align-items: start;
+    justify-content: space-between; /* Adjust if needed */
+    gap: 10px; /* Add spacing between elements */
+    text-align: start;
+    padding:20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+.Dmain .details {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    text-align: left;
+    transform: scaleY(0.9);
+    transition: all 0.4s ease;
+}
+
+/* Show the content with animation */
+.Dmain .details.show {
+    max-height: 2000px;
+    /* Adjust based on your content height */
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+/* Hide the content with animation */
+.Dmain .details.hide {
+    max-height: 0;
+    opacity: 0;
+    transform: scaleY(0.9);
+}
+
+/* General button styling */
+.Dmain button {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding:0;
+    text-align: right;
+    font-size: 18px;
+    width: 60px;
+    color: rgb(107, 81, 82);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Dmain button:hover {
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .Dmain h1 {
+        font-size: 20px;
+    }
+
+    .Dmain h2 {
+        font-size: 18px;
+    }
+    .Dmain h3 {
+        font-size: 16px;
+    }
+
+    .Dmain p {
+        font-size: 18px;
+    }
+
+    .Dmain button {
+        font-size: 16px;
+    }
+
+
+    .container-Dmain {
+        margin-left: 1px;
+        margin-right: 10px;
+        width: 100%;
+    }
+
+}
