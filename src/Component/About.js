@@ -34,7 +34,7 @@ function About() {
                             I'm a developer, and a photographer.
                         </p>
                         <p>
-                            I'm currently looking to grow as a software developer and collaborate with talented professionals. If your team is hiring, take a look on my <a href="https://drive.google.com/file/d/1C0UC4HVuYryGTWOCkOasV2cG9s9aJZQN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a> — We might be a good match! </p>
+                            I'm currently looking to grow as a software developer and collaborate with talented professionals. If your team is hiring, take a look at my <a href="https://drive.google.com/file/d/19l3Z-tnlD3KECcw4yjg7f4Kg0v9yFWtE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Résumé</a> — We might be a good match! </p>
                         <p>
                             To share my journey and connect with like-minded individuals, I created this personal website. Here, you'll find my growing technical projects alongside my photography portfolio.
                         </p>
