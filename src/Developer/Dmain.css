@@ -8,10 +8,10 @@
 .Dmain p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(107, 81, 82);
+    font-size: 18px;
+    margin-top: 10px;
     margin-bottom: 0;
-    font-size: 20px;
-    margin: 20px;
-    margin-bottom: 0;
+    margin-left: 20px;
 }
 
 .Dmain h2 {
@@ -29,8 +29,8 @@
     color: rgb(107, 81, 82);
     font-weight: lighter;
     margin-bottom: 0;
-    font-size: 18px;
-    margin: 20px;
+    font-size: 20px;
+    margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -64,6 +64,26 @@
     transform: scaleY(0.9);
     transition: all 0.4s ease;
 }
+
+.Dmain .container-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: fit-content;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+
+.Dmain .container-details .image-details{
+    width: 20%; 
+    height: auto; 
+    border: none;
+    object-fit: cover;
+    padding: 0;
+  }
 
 /* Show the content with animation */
 .Dmain .details.show {
@@ -111,11 +131,11 @@
         font-size: 18px;
     }
     .Dmain h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .Dmain p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .Dmain button {
@@ -128,5 +148,15 @@
         margin-right: 10px;
         width: 100%;
     }
+
+    .Dmain .container-details{
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+      }
+      .Dmain .container-details .image-details{
+        width: 80%; 
+      }
 
 }

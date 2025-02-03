@@ -1,17 +1,12 @@
 .Main div {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  height: max-content;
 }
 
 .Main h1 {
   color: rgb(107, 81, 82);
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
-  margin-bottom: 6%;
+  margin: 0;
   font-size: 26px;
-  font-weight: normal;
 }
 
 .Main p {
@@ -21,7 +16,10 @@
   color: rgb(107, 81, 82);
   font-size: 20px;
   text-align: left;
-  margin-top: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container-main {
@@ -30,6 +28,69 @@
   margin: 0;
   padding: 4%;
 }
+
+.Main .container-intro {
+  width: 100%;
+  height: fit-content;
+  padding-top: 18vh;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 1) 100%),
+    url('/public/images/Main-background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.Main .button-linkedin {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 20px;
+  margin-bottom: 40px;
+  background-color: #0077B5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.image-circle.in-container {
+  width: 266px;
+  height: 266px;
+  border: none;
+  border-radius: 50%;
+  /* Makes the image circular */
+  object-fit: cover;
+  padding: 0;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.image-circle.standalone {
+  display: none;
+}
+
 
 /* Media query for narrow screens (phones and narrow browsers) */
 @media (max-width: 768px) {
@@ -41,5 +102,85 @@
   .Main p {
     font-size: 18px;
   }
+
+
+  .image-circle.standalone {
+    display: block;
+    margin: 20px auto;
+    width: 188px;
+    height: 188px;
+    border: none;
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    padding: 4%;
+  }
+
+  .image-circle.in-container {
+    display: none;
+  }
+
+  .Main .container-intro {
+    padding-top: 60px;
+  }
+
+  .container-icon {
+    order: 2;
+    padding: 10px;
+    padding-top: 0;
+    gap: 15px;
+    align-items: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .container-icon>*:nth-child(1) {
+    margin-top: 265px;
+  }
+
+  .container-icon>*:nth-child(2) {
+    margin-top: 280px;
+  }
+
+  .container-icon>*:nth-child(3) {
+    margin-top: 275px;
+  }
+
+  .container-icon>*:nth-child(4) {
+    margin-top: 260px;
+  }
+
+  .container-icon>*:nth-child(5) {
+    margin-top: 240px;
+  }
+
+  .container-icon>*:nth-child(6) {
+    margin-top: 220px;
+  }
+
+  .container-icon>*:nth-child(8) {
+    margin-top: 100px;
+  }
+
+  .container-icon>*:nth-child(9) {
+    margin-top: 80px;
+  }
+
+  .container-icon>*:nth-child(10) {
+    margin-top: 60px;
+  }
+
+  .container-icon>*:nth-child(11) {
+    margin-top: 45px;
+  }
+
+  .container-icon>*:nth-child(12) {
+    margin-top: 40px;
+  }
+
+  .container-icon>*:nth-child(13) {
+    margin-top: 55px;
+  }
+
 
 }

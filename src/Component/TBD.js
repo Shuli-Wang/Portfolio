@@ -65,16 +65,16 @@ function TBD() {
 
   return (
     <div className='container-basic'>
-      <h1 style={{ marginTop: '10%', padding: '6px' }}>Construction In&nbsp;Progress&nbsp;🏗️</h1>
+      <h1 style={{ marginTop: '6%', padding: '6px' }}>Construction In&nbsp;Progress&nbsp;🏗️</h1>
       <h1 style={{ fontWeight: 'normal', fontSize: '1rem', padding: '6px' }}>
-        Drop a brick and keep things rolling!
+        Drop a brick and show your support! (68 clicks of encouragement so far)
       </h1>
       <button
         className='button-basic'
-        style={{ margin: '8%' }}
+        style={{ margin: '4%' }}
         onClick={addBrick}
         disabled={isWallBuilt}>
-        {isWallBuilt ? "Thanks 🥰 You helped a lot!" : "Join the fun 🧱"}
+        {isWallBuilt ? "Thank you 🥰 Your support means a lot!" : "Click here 🧱"}
       </button>
       {bricks.map((brick) => (
         <div

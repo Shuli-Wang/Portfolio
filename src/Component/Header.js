@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import "./Header.css";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,11 @@ const Header = () => {
     setIsMenuOpen(false); // Close the menu when a link is clicked
   };
 
+  const location = useLocation();
+  const headerClass = location.pathname === "/" ? "header-absolute" : "header";
+
   return (
-    <header className="header">
+    <header className={headerClass}>
       <div className="header-container">
         <Link to="/">
           <button className="logo"></button>
