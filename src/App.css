@@ -28,7 +28,7 @@ h2 {
 
 .container-basic {
   max-width: 100%;
-  min-height: 76vh;
+  min-height: 480px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,6 +99,6 @@ footer p {
 @media (max-width: 768px) {
   .container-basic {
     max-width: 100%;
-    min-height: 84vh;
+    min-height: 400px;
   }
 }

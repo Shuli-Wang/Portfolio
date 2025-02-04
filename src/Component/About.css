@@ -29,7 +29,12 @@
     font-size: 18px;
     text-align: left;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 18px;
+    
+}
+
+.About .p2{
+    font-weight: bold;
 }
 
 .container-about {
@@ -64,7 +69,7 @@
     margin: 0;
     /* Reset any margin */
     padding: 0;
-    /* Reset any padding */
+    padding-right: 80px;
 }
 
 .About .container-blog {
@@ -141,6 +146,7 @@
 
     .About .container-image {
         width: 100%;
+        padding-right: 0;
     }
 
     .About .container-blog {
@@ -170,12 +176,12 @@
     }
 
     .About h1 {
-        font-size: 20px;
+        font-size: 22px;
         padding-left: 20px;
     }
 
     .About h2 {
-        font-size: 18px;
+        font-size: 20px;
         padding-left: 20px;
     }
 

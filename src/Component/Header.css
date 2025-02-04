@@ -58,6 +58,7 @@
 .logo:hover {
     background-color: transparent;
     background-image: url('/public/images/Logo-LC.png');
+    transition: 0.3s;
 }
 
 .menu-toggle {

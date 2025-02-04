@@ -25,6 +25,7 @@
   color: #2E4C74;
   font-weight: 300; 
   margin: 20px;
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 18px;
   font-style: italic;
@@ -32,25 +33,26 @@
 
 .container-testimonials,
 .container-testimonials-right {
-  width: 80%;
+  width: 50%;
   height: auto;
   padding: auto;
-  margin-left: 20px;
+  margin-left: 100px;
   margin-right: 20px;
   text-align: left;
 }
 
 .container-testimonials-right {
-  margin-left: 20%;
+  margin-right: 80px;
+  margin-left: auto;
 }
 
 @media (max-width: 768px) {
 
   .Testimonials h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .Testimonials h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .Testimonials p {

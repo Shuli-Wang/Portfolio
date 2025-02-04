@@ -112,6 +112,7 @@
 }
 
 .Dmain button:hover {
+    transition: 0.3s;
     color: #F08C32;
 }
 

@@ -15,7 +15,10 @@ const Header = () => {
   };
 
   const location = useLocation();
-  const headerClass = location.pathname === "/" ? "header-absolute" : "header";
+  const headerClass = location.pathname === "/" || location.pathname === "/Testimonials" 
+  ? "header-absolute" 
+  : "header";
+
 
   return (
     <header className={headerClass}>

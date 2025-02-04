@@ -13,9 +13,8 @@
 
 .Pmain h2 {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
-    font-weight: normal;
     padding-left: 4%;
     padding-right: 4%;
     margin:0;
@@ -178,7 +177,8 @@
 }
 
 .Pmain .button-type:hover {
-    opacity: 0.7;
+    opacity: 0.8;
+    transition: 0.3s;
     content: none;
 }
 
@@ -209,7 +209,7 @@
     }
 
     .Pmain h1 {
-        font-size: 20px;
+        font-size: 22px;
         margin-top: 12px;
         margin-bottom: 6px;
     }

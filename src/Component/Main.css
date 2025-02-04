@@ -26,7 +26,7 @@
 
 .Main p {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #2E4C74;
   font-size: 20px;
   text-align: left;
@@ -40,7 +40,7 @@
   width: 60%;
   text-align: left;
   margin: 0;
-  padding: 4%;
+  padding: 20px;
 }
 
 .Main .container-intro {
@@ -74,6 +74,7 @@
   margin: 0;
   padding: 20px;
   padding-top: 10px;
+  padding-bottom: 10px;
   gap: 10px;
 }
 
@@ -99,6 +100,7 @@
 
 .Main .button-linkedin:hover{
   background-color: #F08C32;
+  transition: 0.3s;
 }
 .image-circle.in-container {
   width: 266px;
@@ -108,8 +110,8 @@
   /* Makes the image circular */
   object-fit: cover;
   padding: 0;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .image-circle.standalone {
@@ -134,7 +136,7 @@
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
   }
 
   .Main .button-linkedin {
@@ -176,7 +178,7 @@
     place-items: center;
   }
   .icon{
-    font-size: 20px;
+    font-size: 30px;
   }
 
 }
@@ -184,6 +186,7 @@
 @media (min-width: 769px) {
   .container-icon>*:nth-child(1) {
     margin-top: 265px;
+    
   }
 
   .container-icon>*:nth-child(2) {
