@@ -38,11 +38,11 @@ const PhotoGallery = ({ photos }) => {
             width="50"
             height="50"
           >
-            <circle cx="25" cy="25" r="24" stroke="rgb(107, 81, 82)" fill="transparent" strokeWidth="1" />
+            <circle cx="25" cy="25" r="24" stroke="#F08C32" fill="transparent" strokeWidth="1" />
             <polyline
               points="30,15 20,25 30,35"
               fill="none"
-              stroke="rgb(107, 81, 82)"
+              stroke="#F08C32"
               strokeWidth="1"
               strokeLinecap="round"
               strokeLinejoin="round"

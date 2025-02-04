@@ -2,7 +2,7 @@
     width: 100%;
     height: 18vh;
     min-height: 80px;
-    background-color: rgb(210, 219, 208);
+    background-color: #BEC8D2;
     position: relative;
     z-index: 1000;
 }
@@ -11,7 +11,7 @@
     width: 100%;
     height: 18vh;
     min-height: 80px;
-    background-color: rgba(210, 219, 208, 0);
+    background-color: transparent;
     position: absolute;
     top:0;
     left: 0;
@@ -41,9 +41,9 @@
     /* Remove padding */
     cursor: pointer;
     /* Change cursor to indicate clickable button */
-    height: 80%;
+    height: 90%;
     /* Adjust the height of the button relative to the viewport height */
-    width: 34%;
+    width: 24%;
     /* Allow width to adjust automatically based on aspect ratio */
     background-size: contain;
     /* Ensure the background image is contained within the button */
@@ -53,8 +53,6 @@
     /* Center the background image */
     background-image: url('/public/images/Logo-LR.png');
     background-color: transparent;
-    
-
 }
 
 .logo:hover {
@@ -87,24 +85,12 @@
 
 .left-links,
 .right-links {
-    width: 40%;
+    width: 38%;
     display: flex;
     list-style: none;
-    justify-content: center;
     gap: 6%;
-
+    justify-content:center;
 }
-
-.left-links {
-    justify-content: left;
-
-}
-
-.right-links {
-    justify-content: right;
-
-}
-
 
 .nav-links li {
     display: flex;
@@ -118,33 +104,32 @@
 
 .nav-links li a {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
     text-decoration: none;
     font-size: 1.6vw;
-    color: rgb(107, 81, 82);
+    color:#2E4C74;
     transition: color 0.3s;
     display: block;
-    /* Make the <a> tag a block-level element */
     padding: 10px 20px;
-    /* Add some padding for spacing inside the link */
 }
 
 .nav-links li a:hover {
-    font-weight: bolder;
+    color: white;
 }
 
 
 @media (max-width: 768px) {
     .header {
         z-index: 1000;
-        min-height: 60px;
-        height: 60px;
+        min-height: 80px;
+        height: 80px;
     }
 
     .header-absolute {
         z-index: 1000;
-        min-height: 60px;
-        height: 60px;
+        min-height: 80px;
+        height: 80px;
     }
 
     .logo {
@@ -156,7 +141,7 @@
 
 
     .menu-toggle {
-        color: rgb(107, 81, 82);
+        color: #2E4C74;
         font-size: 1.2rem;
         display: block;
         position: absolute;
@@ -175,14 +160,15 @@
         position: absolute;
         /* Change position to absolute */
         left: 0px;
-        top: 60px;
+        top: 80px;
         width: 100%;
         height: max-content;
-        background-color: rgb(210, 219, 208);
+        background: linear-gradient(to bottom, #BEC8D2 0%, #E6ECF0 100%);
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border-top: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
         opacity: 0;
         pointer-events: none; /* Prevent clicks */
         transform: scaleY(0); /* Collapse the menu */
@@ -228,8 +214,11 @@
 
     .nav-links li a {
         font-size: 0.9rem;
-        color: rgb(107, 81, 82);
-        text-transform: uppercase;
+        color: #2E4C74;
+    }
+
+    .nav-links li a:hover {
+        color:#5078AA;
     }
 
 }

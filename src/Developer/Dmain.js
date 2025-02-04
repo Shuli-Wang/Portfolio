@@ -12,14 +12,14 @@ function Dmain() {
     return (
         <div className="Dmain">
             <div className="container-basic">
-                <h1 style={{ marginTop: '2%', width: '96%', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Ongoing</h1>
+                <h1>Ongoing</h1>
                 <div className="container-Dmain">
                     <div className="container-title">
                         <Link to="/TBD">
                             <h2>BlooTrack</h2>
                         </Link>
                         <button onClick={() => setIsVisible1((prev) => !prev)}>
-                            {isVisible1 ? "Hide" : "Detail"}
+                            {isVisible1 ? "Hide" : "Details"}
                         </button>
                     </div>
                     <h3>Tech Stack: Python, Javascript, MongoDB</h3>
@@ -31,14 +31,14 @@ function Dmain() {
                     </div>
                 </div>
 
-                <h1 style={{ marginTop: '4%', width: '96%', background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%' }}>Completed</h1>
+                <h1>Completed</h1>
 
                 <div className="container-Dmain">
                     <div className="container-title">
                         <Link to="https://www.e-hospital.ca/" target="_blank" rel="noopener noreferrer">
                             <h2>EHR e-hospital Platform</h2></Link>
                         <button onClick={() => setIsVisible2((prev) => !prev)}>
-                            {isVisible2 ? "Hide" : "Detail"}
+                            {isVisible2 ? "Hide" : "Details"}
                         </button>
                     </div>
                     <h3>Tech Stack: React, Node.js, MySQL</h3>
@@ -55,7 +55,7 @@ function Dmain() {
                     <div className="container-title">
                         <h2>Video Transmission System Based on the Neural Network</h2>
                         <button onClick={() => setIsVisible3((prev) => !prev)}>
-                            {isVisible3 ? "Hide" : "Detail"}
+                            {isVisible3 ? "Hide" : "Details"}
                         </button>
                     </div>
                     <h3>Tech Stack: PyTorch, NumPy, IP-based transmission</h3>
@@ -72,7 +72,7 @@ function Dmain() {
                     <div className="container-title">
                         <h2>User Portrait Model for Digital Tourism</h2>
                         <button onClick={() => setIsVisible4((prev) => !prev)}>
-                            {isVisible4 ? "Hide" : "Detail"}
+                            {isVisible4 ? "Hide" : "Details"}
                         </button>
                     </div>
                     <h3>Tech Stack: 3D-KNN, Agile Methodology</h3>
@@ -110,7 +110,7 @@ function Dmain() {
                     <div className="container-title">
                         <h2>Smart Obstacle Detector</h2>
                         <button onClick={() => setIsVisible5((prev) => !prev)}>
-                            {isVisible5 ? "Hide" : "Detail"}
+                            {isVisible5 ? "Hide" : "Details"}
                         </button>
                     </div>
                     <h3>Tech Stack: Embedded System, Android development, STM32F103 microcontroller, Baidu Cloud RDS</h3>

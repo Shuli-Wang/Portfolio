@@ -28,7 +28,7 @@ function About() {
         <div className="About">
             <div className="container-about">
                 <div className="container-blog">
-                    <h1 style={{ marginTop: '4%' }}>Hi! my name is Shuli.</h1>
+                    <h1>Hi! my name is Shuli.</h1>
                     <div className="container-text">
                         <p>
                             I'm a developer, and a photographer.
@@ -52,8 +52,7 @@ function About() {
                         </p>
                     </div>
                     <div className="container-explore">
-                        <h2 style={{ marginTop: '0' }}>
-                            Reach out to me on</h2>
+                        <h2>Reach out to me on</h2>
                         <div className="container-button">
                             <button className='button-explore'
                                 onClick={() => window.location.href = 'https://www.linkedin.com/in/shuli-wang-uottawa/'}>

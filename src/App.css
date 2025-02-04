@@ -1,13 +1,22 @@
 div {
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   height: max-content;
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
-  color: rgb(107, 81, 82);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #F08C32;
   font-size: 26px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #5078AA;
+  font-size: 20px;
+  margin: 0;
 }
 
 .page {
@@ -32,29 +41,31 @@ h1 {
 
 .button-basic {
   padding: 6px;
-  font-family: 'Courier New', Courier, monospace;
-  background: transparent;
-  color: rgb(107, 81, 82);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #FFC857;
+  color: white;
   border: none;
-  border-bottom: 1px solid rgb(107, 81, 82);
-  font-size: 1rem;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
   width: fit-content;
   height: fit-content;
 }
 
 .button-basic:hover {
-  font-weight: bolder;
+  background: #F08C32;
 }
 
 
 footer p {
   margin: 0;
   /* Remove default margin */
-  padding: 0.5rem;
+  padding: 0.8rem;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 8px;
-  color: rgb(107, 81, 82);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #2E4C74;
 
   /*background: linear-gradient(to bottom, transparent 10%, rgb(210, 219, 208) 90%); /* Fades out to transparent */
 

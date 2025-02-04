@@ -1,28 +1,38 @@
 .Pmain h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
     font-size: 26px;
     padding-left: 4%;
     padding-right: 4%;
-    color: rgb(107, 81, 82);
+    margin: 0;
+    margin-bottom: 10px;
+    color: #2E4C74;
     text-align: left;
+    font-style: italic;
 }
 
 .Pmain h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
     font-size: 24px;
+    font-weight: normal;
     padding-left: 4%;
     padding-right: 4%;
-    color: rgb(107, 81, 82);
+    margin:0;
+    color: #5078AA;
     text-align: left;
+    font-style: italic;
 }
 
 .Pmain p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
     padding-left: 4%;
     padding-right: 4%;
     margin-top: 0;
-    color: rgb(107, 81, 82);
+    margin-bottom: 10px;
+    color: #2E4C74;
     text-align: left;
 }
 
@@ -83,7 +93,7 @@
     justify-content: center;
     overflow: hidden;
     margin: auto;
-  }
+}
 
 .Pmain .container-category {
     display: flex;
@@ -140,7 +150,7 @@
     white-space: normal;
     flex-shrink: 1;
     width: 50%;
-    height: auto;
+    height: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -155,9 +165,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 300;
     color: white;
-    text-shadow: 1px 1px 2px rgb(107, 81, 82), -4px -4px 8px rgb(107, 81, 82);
+    text-shadow: 1px 1px 2px #2E4C74, -4px -4px 8px #2E4C74;
     font-size: 16px;
     display: flex;
     justify-content: flex-end;
@@ -198,13 +210,18 @@
 
     .Pmain h1 {
         font-size: 20px;
+        margin-top: 12px;
+        margin-bottom: 6px;
     }
+
     .Pmain h2 {
         font-size: 20px;
+        font-weight: 300;
     }
 
     .Pmain p {
         font-size: 18px;
+        margin-bottom: 6px;
     }
 
     .Pmain .button-type {

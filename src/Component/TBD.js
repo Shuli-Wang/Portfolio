@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BiColor } from "react-icons/bi";
 
 function TBD() {
 
@@ -25,12 +26,10 @@ function TBD() {
       return newBricks;
     });
 
-    /*
     // Remove the brick after it falls
     setTimeout(() => {
       setBricks((prevBricks) => prevBricks.filter((brick) => brick.id !== id));
-    }, 8000);
-    */
+    }, 5000);
   };
 
   const checkWallBuilt = (bricks, containerWidth) => {
@@ -65,16 +64,19 @@ function TBD() {
 
   return (
     <div className='container-basic'>
-      <h1 style={{ marginTop: '6%', padding: '6px' }}>Construction In&nbsp;Progress&nbsp;🏗️</h1>
-      <h1 style={{ fontWeight: 'normal', fontSize: '1rem', padding: '6px' }}>
-        Drop a brick and show your support! (68 clicks of encouragement so far)
-      </h1>
+      <h1 >Construction In&nbsp;Progress&nbsp;🏗️</h1>
+      <h2 style={{fontStyle:'italic'}}>
+        Drop a brick, cheer me on!
+      </h2>
+      <h2 style={{fontStyle:'italic'}}>
+        Encouragement: <a style={{color:'#7DA7D9', fontWeight:'500'}}>168</a> clicks
+      </h2>
       <button
         className='button-basic'
-        style={{ margin: '4%' }}
+        style={{ marginTop: '60px' }}
         onClick={addBrick}
         disabled={isWallBuilt}>
-        {isWallBuilt ? "Thank you 🥰 Your support means a lot!" : "Click here 🧱"}
+        {isWallBuilt ? "Thank you 🥰 Your support means a lot!" : "CLICK HERE"}
       </button>
       {bricks.map((brick) => (
         <div

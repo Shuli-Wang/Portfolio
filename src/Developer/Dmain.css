@@ -1,47 +1,46 @@
 .Dmain h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(107, 81, 82);
-    margin: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #2E4C74;
+    margin: 20px;
+    margin-bottom: 10px;
     font-size: 26px;
-}
-
-.Dmain p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(107, 81, 82);
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 20px;
+    width: 80%;
+    background: linear-gradient(to bottom, transparent 50%, #E6ECF0 50%);
 }
 
 .Dmain h2 {
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(107, 81, 82);
-    margin-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #2E4C74;
     font-size: 20px;
     margin: 0;
     display: inline;
-    font-weight: bold;
 }
 
 .Dmain h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(107, 81, 82);
-    font-weight: lighter;
-    margin-bottom: 0;
+    font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #2E4C74;
+    margin: 0;
+    margin-top: 10px;
     font-size: 20px;
-    margin-left: 20px;
-    margin-top: 0;
+}
+
+.Dmain p {
+    font-family:  -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #2E4C74;
+    font-size: 18px;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 
 .container-Dmain {
-    width: 80%;
+    width: 70%;
     height: auto;
     padding: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 28px;
+    margin:20px;
     text-align: left;
 }
 
@@ -51,9 +50,7 @@
     justify-content: space-between; /* Adjust if needed */
     gap: 10px; /* Add spacing between elements */
     text-align: start;
-    padding:20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding:0px
   }
 
 .Dmain .details {
@@ -72,9 +69,6 @@
     flex-direction: row;
     height: fit-content;
     width: auto;
-    margin-right: 10px;
-    margin-left: 20px;
-    padding-top: 20px;
   }
 
 .Dmain .container-details .image-details{
@@ -82,7 +76,7 @@
     height: auto; 
     border: none;
     object-fit: cover;
-    padding: 0;
+    padding: 10px;
   }
 
 /* Show the content with animation */
@@ -102,13 +96,15 @@
 
 /* General button styling */
 .Dmain button {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
     padding:0;
     text-align: right;
     font-size: 18px;
     width: 60px;
-    color: rgb(107, 81, 82);
+    color: #2E4C74;
+    font-weight: 400;
+    font-style: italic;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -116,15 +112,14 @@
 }
 
 .Dmain button:hover {
-    font-weight: bold;
+    color: #F08C32;
 }
-
-
 
 @media (max-width: 768px) {
 
     .Dmain h1 {
         font-size: 20px;
+        width: 90%;
     }
 
     .Dmain h2 {
@@ -144,9 +139,7 @@
 
 
     .container-Dmain {
-        margin-left: 1px;
-        margin-right: 10px;
-        width: 100%;
+        width: 88%;
     }
 
     .Dmain .container-details{
@@ -156,7 +149,7 @@
         place-items: center;
       }
       .Dmain .container-details .image-details{
-        width: 80%; 
+        width: 88%; 
       }
 
 }

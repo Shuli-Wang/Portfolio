@@ -30,12 +30,12 @@ const Header = () => {
         <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
           <ul className="nav-links">
             <div className="left-links">
-              <li><Link to="/Photographer" onClick={handleClick}>Photography</Link></li>
-              <li><Link to="/Developer" onClick={handleClick}>Projects</Link></li>
+              <li><Link to="/Photographer" onClick={handleClick}>PHOTOGRAPHY</Link></li>
+              <li><Link to="/About" onClick={handleClick}>ABOUT</Link></li>
             </div>
             <div className="right-links">
-              <li><Link to="/About" onClick={handleClick}>About</Link></li>
-              <li><Link to="/Testimonials" onClick={handleClick}>Testimonials</Link></li>
+            <li><Link to="/Developer" onClick={handleClick}>PROJECTS</Link></li>
+              <li><Link to="/Testimonials" onClick={handleClick}>TESTIMONIALS</Link></li>
             </div>
           </ul>
         </nav>

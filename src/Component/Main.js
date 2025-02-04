@@ -8,33 +8,31 @@ function MainPage() {
 
   return (
     <div className="Main">
-
       <div className='container-intro'>
-        <p style={{ textAlign: 'center', paddingTop: '30px', marginBottom: '0' }}>Bugs are crafty, lens caps are slippery — good thing I’m a professional at both hide-and-seek and keeping track.</p>
-
+        <h2>Bugs are crafty, lens caps are slippery — good thing I’m a professional at both hide-and-seek and keeping track.</h2>
         <img
           src={`${process.env.PUBLIC_URL}/images/Portrait-P.jpg`}
           alt="Profile"
           className="image-circle standalone"
         />
         <div className="container-icon">
-          <FaReact className="icon" size={40} title="React" />
-          <FaVuejs className="icon" size={40} title="Vue.js" />
-          <FaNodeJs className="icon" size={40} title="Node.js" />
-          <FaPython className="icon" size={40} title="Python" />
-          <FaJava className="icon" size={40} title="Java" />
-          <SiSpring className="icon" size={40} title="Spring" />
+          <FaReact className="icon" title="React" />
+          <FaVuejs className="icon" title="Vue.js" />
+          <FaNodeJs className="icon" title="Node.js" />
+          <FaPython className="icon" title="Python" />
+          <FaJava className="icon" title="Java" />
+          <SiSpring className="icon" title="Spring" />
           <img
             src={`${process.env.PUBLIC_URL}/images/Portrait-P.jpg`}
             alt="Profile"
             className="image-circle in-container"
           />
-                    <SiMysql className="icon" size={40} title="MySQL" />
-          <SiMongodb className="icon" size={40} title="MongoDB" />
-          <FaAws className="icon" size={40} title="AWS" />
-          <FaDocker className="icon" size={40} title="Docker" />
-          <FaLinux className="icon" size={40} title="Linux" />
-          <FaGithub className="icon" size={40} title="GitHub" />
+                    <SiMysql className="icon"  title="MySQL" />
+          <SiMongodb className="icon" title="MongoDB" />
+          <FaAws className="icon" title="AWS" />
+          <FaDocker className="icon" title="Docker" />
+          <FaLinux className="icon" title="Linux" />
+          <FaGithub className="icon" title="GitHub" />
         </div>
 
         <h1 style={{ marginBottom: '2%' }}>Hi, I'm Shuli.</h1>
@@ -44,7 +42,7 @@ function MainPage() {
 
       <div className="container-basic">
         <div className="container-main">
-        <h1 style={{background: 'linear-gradient(to bottom, transparent 50%, #d2dbd0 50%', marginBottom: '4%' }}>Hire Me!</h1>
+        <h1 style={{background: 'linear-gradient(to bottom, transparent 50%, #E6ECF0 50%', marginBottom: '4%' }}>Hire Me!</h1>
           <p>• I’m actively seeking a full-time Junior Software Developer role anywhere in Ontario, Canada, including remote opportunities.</p>
           <p>• I have hands-on experience in full-stack development, database management, and version control  — skills I’ve applied to projects that solve real problems (and occasionally something just for fun).</p>
           <p>• While I may not tick every box for a role, I’m a quick learner, a careful listener, detail-oriented, and focused on execution, not excuses.</p>
