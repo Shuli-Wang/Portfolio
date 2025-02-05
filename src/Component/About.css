@@ -1,13 +1,12 @@
 .About h1 {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 26px;
-    padding-left: 80px;
+    font-weight: 400;
+    font-size: 22px;
     margin: 0;
     margin-top: 30px;
     color: #5078AA;
     text-align: left;
-    
+    font-style: italic;
 }
 
 .About h2 {
@@ -29,8 +28,8 @@
     font-size: 18px;
     text-align: left;
     margin: 0;
-    padding-top: 18px;
-    
+    padding-top: 16px;
+    line-height: 1.5;    
 }
 
 .About .p2{
@@ -69,7 +68,7 @@
     margin: 0;
     /* Reset any margin */
     padding: 0;
-    padding-right: 80px;
+    padding-right: 40px;
 }
 
 .About .container-blog {
@@ -177,7 +176,6 @@
 
     .About h1 {
         font-size: 22px;
-        padding-left: 20px;
     }
 
     .About h2 {
@@ -186,7 +184,7 @@
     }
 
     .About p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .image-portrait {

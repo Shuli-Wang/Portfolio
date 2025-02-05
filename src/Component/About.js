@@ -28,25 +28,26 @@ function About() {
         <div className="About">
             <div className="container-about">
                 <div className="container-blog">
-                    <h1>Hi! my name is Shuli.</h1>
                     <div className="container-text">
+                    <h1>Some people see the world through code, others through a camera — I do both.</h1>
                         <p>
-                            I'm a developer, and a photographer.
+                            My work is all about bringing clarity — whether through intuitive web design or storytelling photography. As a developer, I focus on making digital experiences smooth and effective. As a photographer, I capture the essence of a moment. In both, I strive for impact.
+                        </p>
+                        <p>My path to software development began in 2018 when I started my undergraduate studies in Internet of Things Engineering. Unlike those who grew up coding from an early age, I didn’t have much access to a computer until college. But when I did, I quickly realized that building applications and websites isn’t just about technology—it’s about people.</p>
+                        <p>
+                        I’ve seen firsthand how technology can transform lives, and that understanding drives my approach to development. Later, I moved to Ottawa for further education and earned a Master’s degree in Electrical and Computer Engineering last year. Along the way, I built a strong foundation in programming, problem-solving, and creating practical solutions through various academic and personal projects.
                         </p>
                         <p>
-                            I'm currently looking to grow as a software developer and collaborate with talented professionals. If your team is hiring, take a look at my <a href="https://drive.google.com/file/d/19l3Z-tnlD3KECcw4yjg7f4Kg0v9yFWtE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Résumé</a> — We might be a good match! </p>
+                            Beyond coding, I am also a passionate photographer. Funny enough, I used to dislike having my photo taken—I found it frustrating when the results didn’t reflect how I wanted to be seen. That changed when I accidentally captured a great shot at a friend’s birthday party. She loved it so much that she made it her profile picture, and as we reminisced about that moment, I realized photography isn’t just about images—it’s about preserving meaningful experiences. From that point on, I started practicing, not just to take beautiful photos, but to capture emotions and stories.
+                                                  </p>
+                       <p>
+                       Over time, photography became my biggest hobby and even helped me connect with new people. This creative journey has shaped how I approach both photography and software development—fostering attention to detail, problem-solving, and the ability to create experiences that truly resonate with people.
+
+                       </p>
+                       
                         <p>
-                            To share my journey and connect with like-minded individuals, I created this personal website. Here, you'll find my growing technical projects alongside my photography portfolio.
-                        </p>
-                        <p>
-                            My path to software development began in 2018 when I started my undergraduate studies in Internet of Things Engineering. Later, I moved to Ottawa for further education and earned a Master’s degree in Electrical and Computer Engineering last year. Along the way, I built a strong foundation in programming, problem-solving, and creating practical solutions through various academic and personal projects.
-                        </p>
-                        <p>
-                            Beyond coding, I am also a passionate photographer. Photography has instilled in me a strong sense of creativity, attention to detail, and the importance of connecting with people. These qualities enhance my technical proficiency and allow me to handle challenges with precision and innovative thinking.
-                        </p>
-                        <p>
-                            Additionally, I’ve been working in a fast-paced Canadian retail environment, which has sharpened my ability to collaborate effectively with coworkers and stay calm under pressure.
-                        </p>
+                        Additionally, working in a fast-paced Canadian retail environment has been an invaluable learning experience. As my first job in Canada, it may have been a minimum-wage role, but it taught me far more than just day-to-day tasks. I learned how to collaborate in a professional setting, where results often take precedence over emotions, and I gained a deeper sense of involvement in Canadian society. Navigating different work dynamics and communicating effectively with coworkers under pressure has strengthened my adaptability—an essential skill in both the workplace and software development.
+                            </p>
                         <p>
                             If my story resonates with you, I’d love to have a conversation — whether over coffee, sharing ideas, or exploring opportunities. I’d appreciate it if you <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-nAvoNumTTxkiQTKnbzBXvLsLNxqo0CSlfU5nEwwMk5B4bQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">leave me a comment</a> with any advice or thoughts you’d like to share!
                         </p>

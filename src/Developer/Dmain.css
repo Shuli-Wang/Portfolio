@@ -3,7 +3,7 @@
     font-weight: 600;
     color: #2E4C74;
     margin: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     font-size: 26px;
     width: 80%;
     background: linear-gradient(to bottom, transparent 50%, #E6ECF0 50%);
@@ -13,7 +13,7 @@
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-weight: 500;
     color: #2E4C74;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
     display: inline;
 }
@@ -23,7 +23,7 @@
     font-weight: 400;
     color: #2E4C74;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 16px;
     font-size: 20px;
 }
 
@@ -32,8 +32,9 @@
     font-weight: 300;
     color: #2E4C74;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 16px;
     margin-bottom: 0;
+    line-height: 1.5;
 }
 
 .container-Dmain {
@@ -46,7 +47,7 @@
 
 .container-title {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-between; /* Adjust if needed */
     gap: 10px; /* Add spacing between elements */
     text-align: start;
@@ -100,7 +101,7 @@
     margin: 0;
     padding:0;
     text-align: right;
-    font-size: 18px;
+    font-size: 20px;
     width: 60px;
     color: #2E4C74;
     font-weight: 400;
@@ -119,12 +120,12 @@
 @media (max-width: 768px) {
 
     .Dmain h1 {
-        font-size: 20px;
+        font-size: 22px;
         width: 90%;
     }
 
     .Dmain h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .Dmain h3 {
         font-size: 18px;
@@ -135,7 +136,7 @@
     }
 
     .Dmain button {
-        font-size: 16px;
+        font-size: 18px;
     }
 
 
