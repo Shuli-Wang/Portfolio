@@ -1,12 +1,23 @@
-import React, { useState } from "react";
-import { BiColor } from "react-icons/bi";
+import React from "react";
+import { useEffect, useState } from "react";
 
 function TBD() {
 
+  const [number, setNumber] = useState(0);
   const [bricks, setBricks] = useState([]);
   const [isWallBuilt, setIsWallBuilt] = useState(false);
 
-  const addBrick = () => {
+
+  const BACKEND_URL = "https://portfolio-backend-eyd9.onrender.com"
+
+  useEffect(() => {
+    fetch(`${BACKEND_URL}/number`)
+      .then(response => response.json())
+      .then(data => setNumber(data.value));
+  }, []);
+
+
+  const addBrick = async () => {
     const container = document.querySelector(".container-basic");
     const containerWidth = container.offsetWidth; // Get the container width
     const brickWidth = 2.5 * parseFloat(getComputedStyle(document.documentElement).fontSize); // Brick width in pixels
@@ -26,10 +37,18 @@ function TBD() {
       return newBricks;
     });
 
+
+    const response = await fetch(`${BACKEND_URL}/increment`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+    });
+    const data = await response.json();
+    setNumber(data.value);
+
     // Remove the brick after it falls
     setTimeout(() => {
       setBricks((prevBricks) => prevBricks.filter((brick) => brick.id !== id));
-    }, 5000);
+    }, 8000);
   };
 
   const checkWallBuilt = (bricks, containerWidth) => {
@@ -57,19 +76,19 @@ function TBD() {
     });
 
     // If total width covered matches or exceeds container width, set wall built
-    if (totalWidthCovered >= 0.8 * containerWidth) {
+    if (totalWidthCovered >= 0.5 * containerWidth) {
       setIsWallBuilt(true);
     }
   };
 
   return (
-    <div className='container-basic' style={{minHeight:'82vh'}}>
+    <div className='container-basic' style={{ minHeight: '82vh' }}>
       <h1 >Construction In&nbsp;Progress&nbsp;🏗️</h1>
-      <h2 style={{fontStyle:'italic'}}>
+      <h2 style={{ fontStyle: 'italic' }}>
         Drop a brick, cheer me on!
       </h2>
-      <h2 style={{fontStyle:'italic'}}>
-        Encouragement: <a style={{color:'#7DA7D9', fontWeight:'500'}}>168</a> clicks
+      <h2 style={{ fontStyle: 'italic' }}>
+        Encouragement: <a style={{ color: '#7DA7D9', fontWeight: '500' }}>{number}</a> clicks
       </h2>
       <button
         className='button-basic'
