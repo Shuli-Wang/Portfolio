@@ -93,7 +93,7 @@ function MainPage() {
           <p>• I have hands-on experience in full-stack development, database management, and version control  — skills I’ve applied to projects that solve real problems (and occasionally something just for fun).</p>
           <p>• While I may not tick every box for a role, I’m a quick learner, a careful listener, detail-oriented, and focused on execution, not excuses.</p>
           <p>• I’m flexible — open to travel, on-call duties, and any extra effort needed to contribute meaningfully.</p>
-          <p style={{ marginBottom: '0' }}>• Take a look at my <a href="https://drive.google.com/file/d/19l3Z-tnlD3KECcw4yjg7f4Kg0v9yFWtE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Résumé</a> — We might be a good match!</p>
+          <p style={{ marginBottom: '0' }}>• Take a look at my <a href="https://drive.google.com/file/d/1MSE52tMQgsmwRCfFpSVgOtOTaghF5-pb/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a> — We might be a good match!</p>
         </div>
         <a
           href="https://www.linkedin.com/in/shuli-wang-uottawa/" // Replace with your LinkedIn profile URL
