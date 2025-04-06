@@ -82,18 +82,23 @@ function MainPage() {
         </motion.div>
 
         <h1 style={{ marginBottom: '12px' }}>Hi, I'm Shuli.</h1>
-        <p style={{ textAlign: 'center', marginBottom: '0' }}>I <a href="/Portfolio/#/Developer">build websites</a> that make life clear.</p>
-        <p style={{ textAlign: 'center', marginBottom: '30px' }}>I <a href="/Portfolio/#/Photographer">capture moments</a> that spread cheer.</p>
+        <p style={{ textAlign: 'center', marginBottom: '0' }}>
+          I build websites that make life clear.{' '}
+          <a href="/Portfolio/#/Developer"><i className="fa fa-compass" aria-hidden="true"></i></a>
+        </p>
+        <p style={{ textAlign: 'center', marginBottom: '0' }}>
+          I capture moments that spread cheer.{' '}
+          <a href="/Portfolio/#/Photographer"><i className="fa fa-camera-retro" aria-hidden="true"></i></a>
+        </p>
       </div>
 
       <div className="container-basic">
         <div className="container-main">
-          <h1 style={{ background: 'linear-gradient(to bottom, transparent 50%, #E6ECF0 50%', marginBottom: '30px' }}>Hire Me!</h1>
-          <p>• I’m actively seeking a full-time Junior Software Developer role anywhere in Ontario, Canada, including remote opportunities.</p>
-          <p>• I have hands-on experience in full-stack development, database management, and version control  — skills I’ve applied to projects that solve real problems (and occasionally something just for fun).</p>
-          <p>• While I may not tick every box for a role, I’m a quick learner, a careful listener, detail-oriented, and focused on execution, not excuses.</p>
-          <p>• I’m flexible — open to travel, on-call duties, and any extra effort needed to contribute meaningfully.</p>
-          <p style={{ marginBottom: '0' }}>• Take a look at my <a href="https://drive.google.com/file/d/1MSE52tMQgsmwRCfFpSVgOtOTaghF5-pb/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a> — We might be a good match!</p>
+          <h1 style={{ background: 'linear-gradient(to bottom, transparent 50%, #E6ECF0 50%', marginBottom: '30px' }}>Skills & Style</h1>
+          <p>• I’m a Web Developer based in Ottawa, Canada, with hands-on experience in Full-stack Development, Database Management, and DevOps.</p>
+          <p>• I enjoy building things that solve real-world problems — whether it’s a practical tool, a creative idea, or something just for fun.</p>
+          <p>• I'm always open to learning, collaborating, and exploring new technologies.</p>
+          <p style={{ marginBottom: '0' }}>• Curious about how I work? Check out my <a href="https://drive.google.com/file/d/1MSE52tMQgsmwRCfFpSVgOtOTaghF5-pb/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a>, and let’s connect!</p>
         </div>
         <a
           href="https://www.linkedin.com/in/shuli-wang-uottawa/" // Replace with your LinkedIn profile URL

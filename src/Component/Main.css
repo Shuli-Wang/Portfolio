@@ -37,6 +37,15 @@
   line-height: 1.5;
 }
 
+.Main i {
+  margin-left: 5px;
+  color: #2E4C74;
+}
+
+.Main i:hover{
+  color: #F08C32;
+}
+
 .container-main {
   width: 60%;
   text-align: left;
