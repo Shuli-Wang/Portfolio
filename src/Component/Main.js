@@ -86,7 +86,7 @@ function MainPage() {
           I build websites that make life clear.{' '}
           <a href="/Portfolio/#/Developer"><i className="fa fa-compass" aria-hidden="true"></i></a>
         </p>
-        <p style={{ textAlign: 'center', marginBottom: '0' }}>
+        <p style={{ textAlign: 'center', marginBottom: '30px' }}>
           I capture moments that spread cheer.{' '}
           <a href="/Portfolio/#/Photographer"><i className="fa fa-camera-retro" aria-hidden="true"></i></a>
         </p>

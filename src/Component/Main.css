@@ -39,11 +39,11 @@
 
 .Main i {
   margin-left: 5px;
-  color: #2E4C74;
+  color: #F08C32;
 }
 
 .Main i:hover{
-  color: #F08C32;
+  color: #2E4C74;
 }
 
 .container-main {
