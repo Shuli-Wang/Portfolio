@@ -27,7 +27,7 @@ const Header = () => {
           <button className="logo"></button>
         </Link>
 
-        <button className="menu-toggle" alt="menu" onClick={toggleMenu}>
+        <button className="menu-toggle" aria-label="menu" onClick={toggleMenu}>
           {isMenuOpen ? "✖" : "☰"}
         </button>
         <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
