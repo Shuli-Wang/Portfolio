@@ -83,23 +83,23 @@ function Dmain() {
                         <div className="container-details">
                             <img
                                 src={`${process.env.PUBLIC_URL}/images/developer/UserPortrait-1.png`}
-                                alt="user-portrait"
+                                alt="user-portrait-3d-data-visualization-result-angle-1"
                                 className="image-details"
                             />
                             <img
                                 src={`${process.env.PUBLIC_URL}/images/developer/UserPortrait-2.png`}
-                                alt="user-portrait"
+                                alt="user-portrait-3d-data-visualization-result-angle-2"
                                 className="image-details"
                             />
                             <img
                                 src={`${process.env.PUBLIC_URL}/images/developer/UserPortrait-3.png`}
-                                alt="user-portrait"
+                                alt="user-portrait-3d-data-visualization-result-angle-3"
                                 className="image-details"
                             />
 
 <img
                                 src={`${process.env.PUBLIC_URL}/images/developer/UserPortrait-4.png`}
-                                alt="user-portrait"
+                                alt="user-portrait-3d-data-visualization-result-angle-4"
                                 className="image-details"
                             />
                         </div>

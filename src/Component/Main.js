@@ -57,7 +57,7 @@ function MainPage() {
 
           <img
             src={`${process.env.PUBLIC_URL}/images/Portrait-P.jpg`}
-            alt="Profile"
+            alt="Profile-Photo"
             className="image-circle in-container"
           />
 
