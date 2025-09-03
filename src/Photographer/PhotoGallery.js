@@ -25,6 +25,7 @@ const PhotoGallery = ({ photos }) => {
 
       <Link to="/Photographer">
         <button
+          aria-label="back to photographer Portfolio main page"
           style={{
             backgroundColor: "transparent",
             border: "none",
