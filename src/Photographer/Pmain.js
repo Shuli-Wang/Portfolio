@@ -80,7 +80,7 @@ function Pmain() {
           <div className='container-category-child-left'>
             <div className='container-type'>
               <button className="button-type"
-                alt="Wedding-Photo-Gallery"
+                alt="Wedding Photo Gallery"
                 style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Wedding-V8.jpg)` }}
                 onClick={() => handleNavigation("/Photographer/Wedding")}>
               View Gallery →</button>
@@ -96,7 +96,7 @@ function Pmain() {
           <div className='container-category-child-right'>
             <div className='container-type' style={{ height: '50%' }}>
               <button className="button-type"
-                alt="Family-Photo-Gallery"
+                alt="Family Photo Gallery"
                 style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Family-V1.jpg)` }}
                 onClick={() => handleNavigation("/Photographer/Family")}>
               View Gallery →</button>
@@ -108,7 +108,7 @@ function Pmain() {
             </div>
             <div className='container-type' style={{ height: '50%' }}>
               <button className="button-type"
-                alt="Personal-Photo-Gallery"
+                alt="Personal Photo Gallery"
                 style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/photographer/Personal-V8.jpg)` }}
                 onClick={() => handleNavigation("/Photographer/Personal")}>
               View Gallery →</button>

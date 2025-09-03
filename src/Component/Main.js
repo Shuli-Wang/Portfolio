@@ -36,47 +36,47 @@ function MainPage() {
           initial="hidden"
           animate="show"
         >
-          <motion.div className="icon" title="React" variants={iconVariants}>
+          <motion.div className="icon" title="React" alt="React" variants={iconVariants}>
             <FaReact />
           </motion.div>
-          <motion.div className="icon" title="Vue.js" variants={iconVariants}>
+          <motion.div className="icon" title="Vue.js" alt="Vue.js" variants={iconVariants}>
             <FaVuejs />
           </motion.div>
-          <motion.div className="icon" title="Node.js" variants={iconVariants}>
+          <motion.div className="icon" title="Node.js" alt="Node.js" variants={iconVariants}>
             <FaNodeJs />
           </motion.div>
-          <motion.div className="icon" title="Python" variants={iconVariants}>
+          <motion.div className="icon" title="Python" alt="Python" variants={iconVariants}>
             <FaPython />
           </motion.div>
-          <motion.div className="icon" title="Java" variants={iconVariants}>
+          <motion.div className="icon" title="Java" alt="Java" variants={iconVariants}>
             <FaJava />
           </motion.div>
-          <motion.div className="icon" title="Spring" variants={iconVariants}>
+          <motion.div className="icon" title="Spring" alt="Spring" variants={iconVariants}>
             <SiSpring />
           </motion.div>
 
           <img
             src={`${process.env.PUBLIC_URL}/images/Portrait-P.jpg`}
-            alt="Profile-Photo"
+            alt="Portait Photo of Shuli Wang"
             className="image-circle in-container"
           />
 
-          <motion.div className="icon" title="MySQL" variants={iconVariants}>
+          <motion.div className="icon" title="MySQL" alt="MySQL" variants={iconVariants}>
             <SiMysql />
           </motion.div>
-          <motion.div className="icon" title="MongoDB" variants={iconVariants}>
+          <motion.div className="icon" title="MongoDB" alt="MongoDB" variants={iconVariants}>
             <SiMongodb />
           </motion.div>
-          <motion.div className="icon" title="AWS" variants={iconVariants}>
+          <motion.div className="icon" title="AWS" alt="AWS" variants={iconVariants}>
             <FaAws />
           </motion.div>
-          <motion.div className="icon" title="Docker" variants={iconVariants}>
+          <motion.div className="icon" title="Docker" alt="Docker" variants={iconVariants}>
             <FaDocker />
           </motion.div>
-          <motion.div className="icon" title="Linux" variants={iconVariants}>
+          <motion.div className="icon" title="Linux" alt="Linux" variants={iconVariants}>
             <FaLinux />
           </motion.div>
-          <motion.div className="icon" title="GitHub" variants={iconVariants}>
+          <motion.div className="icon" title="GitHub" alt="GitHub" variants={iconVariants}>
             <FaGithub />
           </motion.div>
         </motion.div>
