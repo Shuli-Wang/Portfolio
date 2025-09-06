@@ -70,7 +70,7 @@ function About() {
                 <div className="container-image">
                     <img
                         src={`${process.env.PUBLIC_URL}/images/Portrait-D.jpg`}
-                        alt="Portrait Photo of Shuli Wang Holding Her Master's Degree"
+                        alt="Portrait Photo of Shuli Wang"
                         className="image-portrait"
                     />
                 </div>

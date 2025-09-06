@@ -4,29 +4,28 @@ import { FaLinkedin, FaGithub, FaReact, FaVuejs, FaNodeJs, FaPython, FaJava, FaA
 import { SiMongodb, SiMysql, SiSpring } from "react-icons/si";
 import { motion } from "framer-motion";
 
-
 function MainPage() {
-
   const containerVariants = {
-    hidden: { opacity: 1 }, // The container remains visible
+    hidden: { opacity: 1 },
     show: {
       opacity: 1,
-      transition: { staggerChildren: 0.2 }, // Delay between each icon
+      transition: { staggerChildren: 0.2 },
     },
   };
 
   const iconVariants = {
-    hidden: { opacity: 0, y: 20 }, // Start invisible and below
-    show: { opacity: 1, y: 0, transition: { duration: 0.5 } }, // Move up and fade in
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
   return (
     <div className="Main">
       <div className='container-intro'>
         <h2>Bugs are crafty, lens caps are slippery — good thing I’m a professional at both hide-and-seek and keeping track.</h2>
+
         <img
           src={`${process.env.PUBLIC_URL}/images/Portrait-P.jpg`}
-          alt="Profile"
+          alt="Portrait of Shuli Wang"
           className="image-circle standalone"
         />
 
@@ -36,59 +35,63 @@ function MainPage() {
           initial="hidden"
           animate="show"
         >
-          <motion.div className="icon" title="React" alt="React" variants={iconVariants}>
-            <FaReact />
+          <motion.div className="icon" role="img" aria-label="React logo" tabIndex="0" variants={iconVariants}>
+            <FaReact aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="Vue.js" alt="Vue.js" variants={iconVariants}>
-            <FaVuejs />
+          <motion.div className="icon" role="img" aria-label="Vue.js logo" tabIndex="0" variants={iconVariants}>
+            <FaVuejs aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="Node.js" alt="Node.js" variants={iconVariants}>
-            <FaNodeJs />
+          <motion.div className="icon" role="img" aria-label="Node.js logo" tabIndex="0" variants={iconVariants}>
+            <FaNodeJs aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="Python" alt="Python" variants={iconVariants}>
-            <FaPython />
+          <motion.div className="icon" role="img" aria-label="Python logo" tabIndex="0" variants={iconVariants}>
+            <FaPython aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="Java" alt="Java" variants={iconVariants}>
-            <FaJava />
+          <motion.div className="icon" role="img" aria-label="Java logo" tabIndex="0" variants={iconVariants}>
+            <FaJava aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="Spring" alt="Spring" variants={iconVariants}>
-            <SiSpring />
+          <motion.div className="icon" role="img" aria-label="Spring framework logo" tabIndex="0" variants={iconVariants}>
+            <SiSpring aria-hidden="true" />
           </motion.div>
 
           <img
             src={`${process.env.PUBLIC_URL}/images/Portrait-P.jpg`}
-            alt="Portait Photo of Shuli Wang"
+            alt="Portrait of Shuli Wang inside skills container"
             className="image-circle in-container"
           />
 
-          <motion.div className="icon" title="MySQL" alt="MySQL" variants={iconVariants}>
-            <SiMysql />
+          <motion.div className="icon" role="img" aria-label="MySQL logo" tabIndex="0" variants={iconVariants}>
+            <SiMysql aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="MongoDB" alt="MongoDB" variants={iconVariants}>
-            <SiMongodb />
+          <motion.div className="icon" role="img" aria-label="MongoDB logo" tabIndex="0" variants={iconVariants}>
+            <SiMongodb aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="AWS" alt="AWS" variants={iconVariants}>
-            <FaAws />
+          <motion.div className="icon" role="img" aria-label="AWS logo" tabIndex="0" variants={iconVariants}>
+            <FaAws aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="Docker" alt="Docker" variants={iconVariants}>
-            <FaDocker />
+          <motion.div className="icon" role="img" aria-label="Docker logo" tabIndex="0" variants={iconVariants}>
+            <FaDocker aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="Linux" alt="Linux" variants={iconVariants}>
-            <FaLinux />
+          <motion.div className="icon" role="img" aria-label="Linux logo" tabIndex="0" variants={iconVariants}>
+            <FaLinux aria-hidden="true" />
           </motion.div>
-          <motion.div className="icon" title="GitHub" alt="GitHub" variants={iconVariants}>
-            <FaGithub />
+          <motion.div className="icon" role="img" aria-label="GitHub logo" tabIndex="0" variants={iconVariants}>
+            <FaGithub aria-hidden="true" />
           </motion.div>
         </motion.div>
 
         <h1 style={{ marginBottom: '12px' }}>Hi, I'm Shuli.</h1>
         <p style={{ textAlign: 'center', marginBottom: '0' }}>
           I build websites that make life clear.{' '}
-          <a href="/Portfolio/#/Developer"><i className="fa fa-compass" aria-hidden="true"></i></a>
+          <a href="/Portfolio/#/Developer" aria-label="Go to Developer Portfolio">
+            <i className="fa fa-compass" aria-hidden="true"></i>
+          </a>
         </p>
         <p style={{ textAlign: 'center', marginBottom: '30px' }}>
           I capture moments that spread cheer.{' '}
-          <a href="/Portfolio/#/Photographer"><i className="fa fa-camera-retro" aria-hidden="true"></i></a>
+          <a href="/Portfolio/#/Photographer" aria-label="Go to Photographer Portfolio">
+            <i className="fa fa-camera-retro" aria-hidden="true"></i>
+          </a>
         </p>
       </div>
 
@@ -98,16 +101,28 @@ function MainPage() {
           <p>• I’m a Web Developer based in Ottawa, Canada, with hands-on experience in Full-stack Development, Database Management, and DevOps.</p>
           <p>• I enjoy building things that solve real-world problems — whether it’s a practical tool, a creative idea, or something just for fun.</p>
           <p>• I'm always open to learning, collaborating, and exploring new technologies.</p>
-          <p style={{ marginBottom: '0' }}>• Curious about how I work? Check out my <a href="https://drive.google.com/file/d/1ee4nX_0caRdIchjAUCQjd88nStWMFP_b/view?usp=sharing" target="_blank" rel="noopener noreferrer">Résumé</a>, and let’s connect!</p>
+          <p style={{ marginBottom: '0' }}>
+            • Curious about how I work? Check out my 
+            <a 
+              href="https://drive.google.com/file/d/1ee4nX_0caRdIchjAUCQjd88nStWMFP_b/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="Open résumé in Google Drive"
+            >
+              Résumé
+            </a>, and let’s connect!
+          </p>
         </div>
+
         <a
-          href="https://www.linkedin.com/in/shuli-wang-uottawa/" // Replace with your LinkedIn profile URL
-          target="_blank" // Opens the link in a new tab
-          rel="noopener noreferrer" // Recommended for security with target="_blank"
-          style={{ textDecoration: 'none' }} // Optional: Remove underline from the link
+          href="https://www.linkedin.com/in/shuli-wang-uottawa/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none' }}
+          aria-label="Visit Shuli Wang's LinkedIn profile"
         >
           <button className='button-linkedin'>
-            <FaLinkedin style={{ marginRight: '10px', fontSize: '24px' }} />
+            <FaLinkedin style={{ marginRight: '10px', fontSize: '24px' }} aria-hidden="true" />
             @shuli-wang-uottawa
           </button>
         </a>
