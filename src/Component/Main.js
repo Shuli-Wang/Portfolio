@@ -35,49 +35,144 @@ function MainPage() {
           initial="hidden"
           animate="show"
         >
-          <motion.div className="icon" role="img" aria-label="React logo" tabIndex="0" variants={iconVariants}>
+          <motion.a
+            className="icon"
+            href="https://react.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="React logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaReact aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="Vue.js logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            href="https://vuejs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon"
+            role="img"
+            aria-label="Vue.js logo"
+            tabIndex="0"
+            variants={iconVariants}>
             <FaVuejs aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="Node.js logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://nodejs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="Node.JS logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaNodeJs aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="Python logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://www.python.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="python logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaPython aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="Java logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://www.java.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="Java logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaJava aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="Spring framework logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://spring.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="Spring logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <SiSpring aria-hidden="true" />
-          </motion.div>
+          </motion.a>
 
           <img
             src={`${process.env.PUBLIC_URL}/images/Portrait-P.jpg`}
             alt="Portrait of Shuli Wang inside skills container"
             className="image-circle in-container"
           />
-
-          <motion.div className="icon" role="img" aria-label="MySQL logo" tabIndex="0" variants={iconVariants}>
+          <motion.a
+            className="icon"
+            href="https://www.mysql.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="MySQL logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <SiMysql aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="MongoDB logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://www.mongodb.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="MongoDB logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <SiMongodb aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="AWS logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://aws.amazon.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="AWS logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaAws aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="Docker logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://www.docker.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="Docker logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaDocker aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="Linux logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://www.linux.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="Linux logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaLinux aria-hidden="true" />
-          </motion.div>
-          <motion.div className="icon" role="img" aria-label="GitHub logo" tabIndex="0" variants={iconVariants}>
+          </motion.a>
+          <motion.a
+            className="icon"
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="img"
+            aria-label="GitHub logo"
+            tabIndex="0"
+            variants={iconVariants} >
             <FaGithub aria-hidden="true" />
-          </motion.div>
+          </motion.a>
         </motion.div>
 
         <h1 style={{ marginBottom: '12px' }}>Hi, I'm Shuli.</h1>
@@ -102,10 +197,10 @@ function MainPage() {
           <p>• I enjoy building things that solve real-world problems — whether it’s a practical tool, a creative idea, or something just for fun.</p>
           <p>• I'm always open to learning, collaborating, and exploring new technologies.</p>
           <p style={{ marginBottom: '0' }}>
-            • Curious about how I work? Check out my 
-            <a 
-              href="https://drive.google.com/file/d/1ee4nX_0caRdIchjAUCQjd88nStWMFP_b/view?usp=sharing" 
-              target="_blank" 
+            • Curious about how I work? Check out my
+            <a
+              href="https://drive.google.com/file/d/1ee4nX_0caRdIchjAUCQjd88nStWMFP_b/view?usp=sharing"
+              target="_blank"
               rel="noopener noreferrer"
               aria-label="Open résumé in Google Drive"
             >

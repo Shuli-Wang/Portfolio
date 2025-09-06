@@ -22,8 +22,7 @@ const Header = () => {
   return (
     <header className={headerClass}>
       <div className="header-container">
-        <Link to="/" aria-label="Go to Home">
-          <button className="logo" aria-hidden="true"></button>
+        <Link to="/" className="logo" aria-label="Go to Home">
         </Link>
 
         <button
