@@ -197,7 +197,7 @@ function MainPage() {
           <p>• I enjoy building things that solve real-world problems — whether it’s a practical tool, a creative idea, or something just for fun.</p>
           <p>• I'm always open to learning, collaborating, and exploring new technologies.</p>
           <p style={{ marginBottom: '0' }}>
-            • Curious about how I work? Check out my
+            • Curious about how I work? Check out my{' '}
             <a
               href="https://drive.google.com/file/d/1ee4nX_0caRdIchjAUCQjd88nStWMFP_b/view?usp=sharing"
               target="_blank"

@@ -10,17 +10,20 @@ function Pmain() {
   const isWideScreen = window.innerWidth > 768; // Adjust breakpoint as needed
 
   const wideImages = [
-    `${process.env.PUBLIC_URL}/images/photographer/Main-H1.jpg`,
-    `${process.env.PUBLIC_URL}/images/photographer/Main-H2.jpg`,
-    `${process.env.PUBLIC_URL}/images/photographer/Main-H3.jpg`,
-    `${process.env.PUBLIC_URL}/images/photographer/Main-H4.jpg`,
-  ];
-  const narrowImages = [
-    `${process.env.PUBLIC_URL}/images/photographer/Wedding-V7.jpg`,
-    `${process.env.PUBLIC_URL}/images/photographer/Personal-V1.jpg`,
-    `${process.env.PUBLIC_URL}/images/photographer/Family-V4.jpg`,
-    `${process.env.PUBLIC_URL}/images/photographer/Personal-V5.jpg`,
-  ];
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Main-H1.jpg`, alt: "Friends gather to celebrate the marriage of a newlywed couple." },
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Main-H2.jpg`, alt: "A retro-styled girl wearing a lace unberella sits on the lawn." },
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Main-H3.jpg`, alt: "Mom, dad and a five-year-old are seated on the sofa in their living room." },
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Main-H4.jpg`, alt: "A couple holds hands while lying on the lawn as the sun shines through the tree." },
+];
+
+const narrowImages = [
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Wedding-V7.jpg`, alt: "Couple Waving Hands in Front of the Parliament Building" },
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V1.jpg`, alt: "Pregnant Women Sitting on a Bench in Sunset" },
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Family-V4.jpg`, alt: "Father and Mother Playing Toys with Son on Sofa" },
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V5.jpg`, alt: "Women in White Dress Staring at the Lens in City Lights" },
+];
+
+
   const images = isWideScreen ? wideImages : narrowImages;
 
   const handlePrev = () => {
@@ -61,8 +64,8 @@ function Pmain() {
             {images.map((image, index) => (
               <img
                 key={index}
-                src={image}
-                alt={`Slide ${index}`}
+                src={image.src}
+                alt={image.alt}
               />
             ))}
           </div>

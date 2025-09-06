@@ -6,7 +6,7 @@ const photoPersonal = [
   { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V2.jpg`, alt: "Women in Retro Style Holding Boutique Standing Near River" },
   { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V3.jpg`, alt: "Graduate Student Waving Hand in Graduation Ceremony" },
   { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V4.jpg`, alt: "Woemn Holding Boutique in the a Quiet Night Near Rideau Canal" },
-  { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V5.jpg`, alt: "Women in White DressStaring at the Lens in City Lights" },
+  { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V5.jpg`, alt: "Women in White Dress Staring at the Lens in City Lights" },
   { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V6.jpg`, alt: "Women Holding Boutiqueafter Her Graduation Ceremony" },
   { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V7.jpg`, alt: "Women Holding Boutique in Snow with a Big Smile" },
   { src: `${process.env.PUBLIC_URL}/images/photographer/Personal-V8.jpg`, alt: "Women Holding Her Degree in Hand with a Big Smile" },
