@@ -193,8 +193,8 @@ function MainPage() {
       <div className="container-basic">
         <div className="container-main">
           <h1 style={{ background: 'linear-gradient(to bottom, transparent 50%, #E6ECF0 50%', marginBottom: '30px' }}>Skills & Style</h1>
-          <p>• I’m a Web Developer based in Ottawa, Canada, with hands-on experience in Full-stack Development, Database Management, and DevOps.</p>
-          <p>• I enjoy building things that solve real-world problems — whether it’s a practical tool, a creative idea, or something just for fun.</p>
+          <p>• I’m a Web Developer based in Ontario, Canada, with hands-on experience in Full-stack Development, Database Management, and DevOps.</p>
+          <p>• I enjoy building things that solve real-world problems: whether it’s a practical tool, a creative idea, or something just for fun:D</p>
           <p>• I'm always open to learning, collaborating, and exploring new technologies.</p>
           <p style={{ marginBottom: '0' }}>
             • Curious about how I work? Check out my{' '}
