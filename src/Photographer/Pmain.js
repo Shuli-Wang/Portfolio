@@ -74,7 +74,7 @@ const narrowImages = [
           </button>
         </div>
         <div className='container-intro'>
-          <h2 style={{marginTop:'30px'}}>Life often pulls us into its daily rhythm — rush hour, housework, and the grind of work. Yet, every now and then, there will be a moment lifting us out of the ordinary, reminding us why it all matters.</h2>
+          <h2 style={{marginTop:'30px'}}>Life often pulls us into its daily rhythm: rush hour, housework, and the grind of work. Yet, every now and then, there will be a moment lifting us out of the ordinary, reminding us why it all matters.</h2>
           <h2 style={{fontWeight:'400', color:'#F08C32'}}>Life is measured not by years or days, but by the moments that take our breath away.</h2>
           <h1 style={{fontWeight:'600', width: '88%', marginTop:'30px',marginBottom: '20px', background: 'linear-gradient(to bottom, transparent 50%, #E6ECF0 50%' }}>
             Through My Lens</h1>
@@ -105,7 +105,7 @@ const narrowImages = [
               View Family Gallery →</button>
               <div className='container-type-child'>
                 <h1>Family</h1>
-                <p>Family is  everything — shared memories, unwavering support, and unconditional love. </p>
+                <p>Family is  everything: shared memories, unwavering support, and unconditional love. </p>
                   <p>Whether united by blood or not, through moments of joy or times of hardship, family is where you find peace and belonging.</p>
               </div>
             </div>
